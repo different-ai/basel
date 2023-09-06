@@ -1,0 +1,69 @@
+
+openapi: 3.0.0
+info:
+  title: Endpoint Schema Generator API
+  version: 1.0.0
+paths:
+  /health:
+    get:
+      summary: Health check endpoint
+      responses:
+        200:
+          description: API is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: ok
+  /generate-endpoint-schema:
+    post:
+      summary: Generate OpenAPI schema from endpoint code
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - prompt
+                - filepath
+              properties:
+                prompt:
+                  type: string
+                filepath:
+                  type: string
+      responses:
+        200:
+          description: Generated OpenAPI schema
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  schema:
+                    type: object
+  /validate-spec:
+    post:
+      summary: Validate OpenAPI spec
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - spec
+              properties:
+                spec:
+                  type: object
+      responses:
+        200:
+          description: Validated OpenAPI spec
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  validYaml:
+                    type: boolean
