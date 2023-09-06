@@ -1,7 +1,10 @@
 {
   "name": "basel-sdk",
-  "version": "1.0.1",
+  "version": "0.0.2",
   "description": "",
+  "bin": {
+    "basel": "./main.js"
+  },
   "main": "main.js",
   "scripts": {
     "start": "node server.js",
