@@ -1,6 +1,6 @@
 {
-  "name": "basel",
-  "version": "1.0.0",
+  "name": "basel-sdk",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Different AI",
   "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.6.2",

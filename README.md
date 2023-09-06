@@ -4,7 +4,7 @@ Basel is a tool designed to help developers avoid writing OpenAPI specifications
 Installation
 
 You can install Basel using npm:
-`npm i basel`
+`npm i basel-sdk`
 
 ## Usage
 
