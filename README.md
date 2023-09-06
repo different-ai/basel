@@ -9,6 +9,7 @@ You can install Basel using npm:
 ## Usage
 
 Here is an example of how to use Basel:
+
 `basel --root ./ --include api --exclude node_modules`
 
 This command will generate an OpenAPI specification for all files in the api directory (excluding any in the node_modules directory), and write the specification to a file named spec.yaml.
