@@ -15,18 +15,18 @@ This command will generate an OpenAPI specification for all files in the api dir
 
 Basel can be used in two ways:
 
-1. By using the Basel API, which requires a BASEL_API_KEY and optionally a BASEL_API_URL.
-2. By using the client-side API, which requires an ANTHROPIC_API_KEY.
+1. By using the Basel API, which requires a `BASEL_API_KEY` and optionally a BASEL_API_URL.
+2. By using the client-side API, which requires an `ANTHROPIC_API_KEY`.
 
-You can provide either a BASEL_API_KEY or an ANTHROPIC_API_KEY, but not both.
+You can provide either a `BASEL_API_KEY` or an `ANTHROPIC_API_KEY`, but not both.
 
 ### Basel API
 
-If you have a BASEL_API_KEY, Basel will use the Basel API to generate and validate your OpenAPI specifications. If you also have a BASEL_API_URL, Basel will use this URL as the base URL for the Basel API.
+If you have a `BASEL_API_KEY`, Basel will use the Basel API to generate and validate your OpenAPI specifications. If you also have a `BASEL_API_URL`, Basel will use this URL as the base URL for the Basel API.
 
 ### Client-side API
 
-If you have an ANTHROPIC_API_KEY, Basel will use the client-side API to generate and validate your OpenAPI specifications.
+If you have an `ANTHROPIC_API_KEY`, Basel will use the client-side API to generate and validate your OpenAPI specifications.
 
 ## Contributing
 
