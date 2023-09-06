@@ -14,8 +14,6 @@ build/
 # Ignore npm lock file
 package-lock.json
 
-# Ignore yarn lock file
-yarn.lock
 
 # Ignore .DS_Store files
 .DS_Store
